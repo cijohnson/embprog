@@ -1,0 +1,14 @@
+{
+    "files.associations": {
+        "map": "cpp"
+    },
+    "makefile.launchConfigurations": [
+        {
+            "cwd": "${workspaceFolder}",
+            "binaryPath": "${workspaceFolder}/build/two_sum",
+            "binaryArgs": []
+        }
+    ],
+    "makefile.buildLog": "${workspaceFolder}/build/",
+    "makefile.makefilePath": "${workspaceFolder}"
+}

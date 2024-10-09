@@ -1,0 +1,23 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+      {
+        "label": "build",
+        "type": "shell",
+        "command": "make ${input:debugBinary}",
+        "group": {
+          "kind": "build",
+          "isDefault": true
+        },
+        "problemMatcher": "$gcc"
+      }
+    ],
+    "inputs": [
+      {
+        "type": "promptString",
+        "id": "debugBinary",
+        "description": "Name of the Binary to debug",
+        "default": "two_sum"
+      }
+    ]
+  }
