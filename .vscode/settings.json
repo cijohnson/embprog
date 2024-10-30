@@ -5,7 +5,7 @@
     "makefile.launchConfigurations": [
         {
             "cwd": "${workspaceFolder}",
-            "binaryPath": "${workspaceFolder}/build/two_sum",
+            "binaryPath": "${workspaceFolder}/build/blink",
             "binaryArgs": []
         }
     ],

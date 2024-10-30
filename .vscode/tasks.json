@@ -17,7 +17,7 @@
         "type": "promptString",
         "id": "debugBinary",
         "description": "Name of the Binary to debug",
-        "default": "two_sum"
+        "default": "blink"
       }
     ]
   }
